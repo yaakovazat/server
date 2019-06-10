@@ -25,7 +25,12 @@ SECRET_KEY = 'pyz=1kav5s@c%gji5!3wv)s_u-a@frda6kflhd%r)5in*6g%43'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '45.32.7.40',
+    '*',
+    '0.0.0.0',
+    '127.0.0.1'
+]
 
 
 # Application definition
